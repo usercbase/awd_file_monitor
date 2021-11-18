@@ -2,6 +2,8 @@
 
 文件监控，用来监控py文件以及其子目录下的所有文件的增删改
 
+<img src="https://gitee.com/usercbase/img/raw/master/20211118222303.png" width="100%">
+
 此脚本基于https://gitee.com/piri47/AWD-1/blob/master/%E6%96%87%E4%BB%B6%E7%9B%91%E6%8E%A7.py  
 
 如有侵权，请联系删除
@@ -28,3 +30,11 @@ python3请使用monitor-py3.py
 ```
 python3 monitor-py3.py
 ```
+
+为避免编码问题导致报错，运行参数可以加上`PYTHONIOENCODING=utf-8`即
+
+```bash
+PYTHONIOENCODING=utf-8 python2 monitor-py2.py
+PYTHONIOENCODING=utf-8 python3 monitor-py3.py
+```
+
